@@ -5,19 +5,18 @@ using namespace std;
 class Solution {
 public:
 	int removeDuplicates(vector<int>& nums) {
-		if (nums.size() <= 1) return nums.size();
+		if (nums.size() <= 2) return nums.size();
 
-		int k = 0; // 代表[0,k）中没重复元素
-		int i = 0;
-		for (; i < nums.size() - 1; i++) {
-			while (i < nums.size() - 1 && nums[i] == nums[i + 1])
-				i++;
+		int k = 2; // 代表[0,k）中没重复元素
+		int i = 2;
 
-			swap(nums[k++], nums[i]);
+		while (i < nums.size()) {
+			if (nums[i] != nums[k - 2])
+				nums[k++] = nums[i];
+			i++;
 
 		}
-		if (i == nums.size() - 1 && k - 1 != i)
-			swap(nums[k++], nums[i]);
+
 
 		return k;
 	}
@@ -26,6 +25,18 @@ public:
 
 int main() {
 
+
+	int arr[] = { 1,1,1 };
+	vector<int> vec(arr, arr + sizeof(arr) / sizeof(int));
+
+	int k = Solution().removeDuplicates(vec);
+
+	for (int i = 0; i < vec.size(); i++)
+		if (i < k)
+			cout << vec[i] << " ";
+		else
+			cout << vec[i] << "* ";
+	cout << endl;
 	system("pause");
 	return 0;
 }
