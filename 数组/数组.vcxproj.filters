@@ -30,9 +30,36 @@
     <ClCompile Include="力扣80-删除有序数组中的重复项 II.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="力扣75-颜色分类.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="力扣88-合并两个有序数组.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="力扣215-数组中的第K个最大元素.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="力扣167-两数之和II输入有序数组.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="力扣125-验证回文串.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="力扣344-反转字符串.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="力扣345-反转字符串中的元音字母.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="力扣11-盛最多水的容器.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyUtil.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="排序函数.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
