@@ -63,6 +63,9 @@
     <ClCompile Include="力扣438-找到字符串中所有字母异位词.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="力扣76-最小覆盖子串.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="MyUtil.h">

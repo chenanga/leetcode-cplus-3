@@ -172,10 +172,13 @@
     <ClCompile Include="力扣345-反转字符串中的元音字母.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="力扣438-找到字符串中所有字母异位词.cpp" />
+    <ClCompile Include="力扣438-找到字符串中所有字母异位词.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="力扣75-颜色分类.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="力扣76-最小覆盖子串.cpp" />
     <ClCompile Include="力扣80-删除有序数组中的重复项 II.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
